@@ -21,6 +21,7 @@ bi=github.com/gehariharan/whatsapp-axi/internal/buildinfo
 has() { [[ "$formula" == *"$1"* ]] || fail "formula lacks: $1"; }
 has 'class WhatsappAxi < Formula'
 has "url \"https://github.com/gehariharan/whatsapp-axi/archive/refs/tags/v$version.tar.gz\""
+has "version \"$version\""
 has "sha256 \"$sum\""
 has 'license "MIT"'
 has 'depends_on "go" => :build'

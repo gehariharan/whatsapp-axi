@@ -55,8 +55,8 @@ Settings, all optional:
 
 ## Install
 
-No release has been published yet; until then, build from source (below). From the first release on
-([docs/releasing.md](docs/releasing.md)):
+The current release is the 0.1.0-preview.1 prerelease ([docs/releasing.md](docs/releasing.md) describes how
+releases are made):
 
 - **macOS:** use the Homebrew formula, which builds from source with Homebrew's Go:
   `brew install gehariharan/tap/whatsapp-axi`. whatsapp-axi is not signed or notarized by Apple, so a

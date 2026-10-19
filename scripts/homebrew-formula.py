@@ -29,6 +29,7 @@ class WhatsappAxi < Formula
   desc "Agent-facing CLI that reads a local wasync WhatsApp archive"
   homepage "https://github.com/{REPO}"
   url "https://github.com/{REPO}/archive/refs/tags/v{version}.tar.gz"
+  version "{version}"
   sha256 "{source_sha256}"
   license "MIT"
 
